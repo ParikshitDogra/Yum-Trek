@@ -1,0 +1,331 @@
+#Title{
+    display: inline;
+    position: relative;
+    font-family: Pacifico;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);         
+}
+#home{
+    float: left;
+    font-size: 60px;
+    transform: translateY(-25%);
+    color: whitesmoke;
+}
+body {
+    margin: 0;
+}
+.hov{
+    font-size: 20px;
+}
+.hov:hover{
+    background-color: rgb(117, 250, 99);
+}
+header {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    padding: 10px ;
+}
+nav ul {
+    border-radius: 14pt;
+    background-color:rgb(248, 149, 119) ;
+    list-style-type: none;
+}
+nav li {
+    font-family: Pacifico;
+    display: inline;
+    padding: 9px;
+    margin: 0 15px;
+    border-radius:14pt;
+}
+.search-container {
+    display: inline-block;
+    position: relative;
+}
+.search-container input {
+    padding: 10px 30px 10px 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+.search-container button {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.search-container button img {
+    width: 20px;
+    height: 20px; 
+}
+#quote{
+    font-family: Pacifico;
+    border-radius: 14pt;
+}
+#quote span{
+    color:rgb(248, 149, 119) ;
+    font-size: 25px;
+}
+#boxes{
+    margin-top: 20px;
+    width: 100%;
+    padding: 20px;
+    margin: 1px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+.box{
+    width: 250px;
+    height: 250px;
+    margin: 5px 10px;
+    transition: 1s;
+    
+}
+.box img{
+    display: block;
+    width: 100%;
+    height: 250px;
+    border-radius: 5px;
+}
+.box:hover{
+    transform: scale(1.2);
+    z-index: 2;
+}
+.food{
+    color: black;
+    font-family:Pacifico;
+    text-align: center;
+    background-color:rgba(248, 149, 119, 0.808) ;
+    margin-left:30%;
+    margin-right: 30%;
+    transform: translateY(-50%);
+    border-radius: 11pt;
+}
+#leg{
+    font-family:Pacifico;
+    font-size: 30px;
+    color:rgb(248, 149, 119) ;
+}
+fieldset{
+    border-radius: 11pt;
+    margin-bottom: 5px;
+}
+#icons{
+    margin-top: 20px;
+    width: 100%;
+    padding: 20px;
+    margin: 1px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+.icon{
+    width: 100px;
+    height: 100px;
+    margin: 5px 10px;
+    transition: 1s;
+}
+.icon:hover{
+    transform: scale(1.2);
+    z-index: 2;
+}
+.icon img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border-radius: 50%;
+}
+#mainDiv{
+    font-family:Pacifico;
+    text-align: center;
+    color:  rgb(255, 0, 0);
+}
+#mainDiv h2{
+    background-color: rgb(248, 149, 119);
+    border-radius: 11pt;
+    color:rgb(0, 0, 0) ;
+}
+footer{
+    background-color: black;
+}
+#social{
+    
+    padding: 20px;
+    margin-top: 20px;
+    width: 100%;
+    margin: 1px auto;
+    display: flex;
+    justify-content: center;
+}
+#social .logos{
+    width: 30px;
+    height: 30px;
+    margin: 5px 10px;
+}
+#social p{
+    color: white;
+    transform: translateY(-25%);
+    font-family:pacifico;
+}
+.logos img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+#copyright{
+    margin-top: -40px;
+    color: white;
+    text-align: center;
+}
+#copyright span{
+    font-family:Pacifico;
+    font-size: 30px;
+    margin-right: 10px;
+    color:rgb(248, 149, 119) ;
+}
+/* login page and SignUp */
+#body {
+    background: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+.cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.login-box {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-box h2{
+    font-family:Pacifico;
+    color: rgb(248, 149, 119);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-box {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px 10px 10px 5px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    outline: none;
+    font-size: 16px;
+    color: #333;
+    transition: 0.3s;
+}
+
+.input-box label {
+    position: absolute;
+    top: 0;
+    left: 5px;
+    pointer-events: none;
+    transition: 0.3s;
+    font-size: 16px;
+    color: #aaa;
+}
+
+.input-box input:focus ~ label,
+.input-box input:not(:placeholder-shown) ~ label {
+    top: -20px;
+    left: 5px;
+    font-size: 12px;
+    color: #333;
+}
+
+.input-box input:focus {
+    border-bottom-color: rgb(248, 149, 119);
+}
+
+.button-box {
+    text-align: center;
+}
+
+.button-box button {
+    padding: 10px 20px;
+    background-color: rgb(248, 149, 119);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button-box button:hover {
+    background-color:rgb(248, 149, 119);
+}
+
+.signup-link {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.signup-link a {
+    font-family:Pacifico;
+    color: rgb(248, 149, 119);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
+/* recipie page*/
+#recDiv{
+    padding: 20px;
+}
+/*For all recipe pages*/
+#Frecipe{
+    font-family:Pacifico;
+    padding: 20px;
+    background-color: antiquewhite;
+    min-height: 100vh;;
+    }
+#Frecipe h1{
+    color:rgb(248, 149, 119) ;
+
+}
+#Frecipe h2{
+    color:rgb(248, 149, 119) ;
+    
+}
+#Frecipe h3{
+    color:rgb(248, 149, 119) ;
+}
+#Frecipe p{
+    color: rgb(76, 0, 255);
+}
+#Recimg img{
+        max-width: 500px;
+        float: right;
+        border: 3px solid white;
+        border-radius: 11pt;
+        margin: 20px;
+}

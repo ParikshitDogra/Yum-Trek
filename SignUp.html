@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="IndexC.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap">
+</head>
+<body>
+    <header class="navbar">
+        <nav class="container">
+            <div id="home"><p id="Title"><a href="index.html">Yum Trek</a></p></div>
+            <ul class="nav-links">
+                <li class="hov"><a href="index.html">Home</a></li>
+                <li class="hov"><a href="About.html">About</a></li>
+                <li class="hov"><a href="Recipes.html">Recipes</a></li>
+                <li class="hov"><a href="SignUp.html">SignUp</a></li>
+                <li class="hov"><a href="login.html">Login</a></li>
+                <li class="search-container">
+                    <form action="#" method="get">
+                        <input type="text" id="Search" name="Search" placeholder="Search new recipes..." required>
+                        <button type="submit">
+                            <img src="./Images/magnifying-glass.png" alt="Search">
+                        </button>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div id="quote"><span>"Good food is the foundation of genuine happiness."</span> Wouldn't you agree? 🍽️</div>
+    <hr> 
+
+    <div id="body">
+        <div class="cont">
+            <div class="login-box">
+                <h2>Sign Up</h2>
+                <form id="signupForm" onsubmit="signup(event)">
+                    <div class="input-box">
+                        <input type="text" name="username" required>
+                        <label>Username</label>
+                    </div>
+                    <div class="input-box">
+                        <input type="email" name="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" name="password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="button-box">
+                        <button type="submit">Sign Up</button>
+                    </div>
+                    <p class="signup-link">Already have an account? <a href="login.html">Login</a></p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div id="social">
+            <p>Follow Us</p>
+            <div class="logos">
+                <a href="https://www.instagram.com" target="_blank">
+                    <img src="./Images/insta.jfif" alt="instagram logo">
+                </a>
+            </div>
+            <div class="logos">
+                <a href="https://www.X.com" target="_blank">
+                    <img src="./Images/X.jfif" alt="x logo">
+                </a>
+            </div>
+            <div class="logos">
+                <a href="https://www.facebook.com" target="_blank">
+                    <img src="./Images/Facebook.jfif" alt="facebook logo">
+                </a>
+            </div>
+            <div class="logos">
+                <a href="https://www.pinterest.com" target="_blank">
+                    <img src="./Images/Pinterest.jfif" alt="pinterest logo">
+                </a>
+            </div>
+        </div>
+        <div id="copyright">
+            <span>Yum Trek</span>&copy; 2024 Yum Trek. All Rights Reserved.
+        </div>
+    </footer>
+
+    <script>
+    function signup(event) {
+        event.preventDefault();
+        alert("You are signed up, Now please login!");
+        window.location.href = "login.html"; 
+    }
+    </script>
+</body>
+</html>
